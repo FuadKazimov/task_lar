@@ -41,27 +41,27 @@
 #         print(employee["name"])
 #---------------------------------------------------------------------------------
 #Task5
-data = {
-    "company": "TechCorp",
-    "departments": {
-        "development": {
-            "employees": [
-                {"name": "Alice", "role": "Developer", "projects": ["App1", "App2"]},
-                {"name": "Bob", "role": "Developer", "projects": ["App3"]},
-                {"name": "Mark", "role": "Lead", "projects": []}
-            ]
-        },
-        "design": {
-            "employees": [
-                {"name": "Charlie", "role": "Designer", "projects": ["Design1"]},
-                {"name": "Diana", "role": "Designer", "projects": []}
-            ]
-        }
-    }
-}
-for employee in data["departments"]["development"]["employees"]:
-    project_count = len(employee["projects"])
-    if project_count > 0:
-        print(f"{employee['name']} - Layihələr: {project_count}")
-    else:
-        print(f"{employee['name']} - Layihə yoxdur")
+# data = {
+#     "company": "TechCorp",
+#     "departments": {
+#         "development": {
+#             "employees": [
+#                 {"name": "Alice", "role": "Developer", "projects": ["App1", "App2"]},
+#                 {"name": "Bob", "role": "Developer", "projects": ["App3"]},
+#                 {"name": "Mark", "role": "Lead", "projects": []}
+#             ]
+#         },
+#         "design": {
+#             "employees": [
+#                 {"name": "Charlie", "role": "Designer", "projects": ["Design1"]},
+#                 {"name": "Diana", "role": "Designer", "projects": []}
+#             ]
+#         }
+#     }
+# }
+# for employee in data["departments"]["development"]["employees"]:
+#     project_count = len(employee["projects"])
+#     if project_count > 0:
+#         print(f"{employee['name']} - Layihələr: {project_count}")
+#     else:
+#         print(f"{employee['name']} - Layihə yoxdur")
